@@ -1,7 +1,7 @@
 import pytest
 
 @pytest.fixture
-def setup(scope="function"):
+def setup(scope="module"):
     print("setup")
 
 def teardown():
@@ -15,3 +15,6 @@ def test_secondTC(setup):
 
 def test_thirdTC(setup):
     print("This is third Test Case")
+
+def test_fourthTC(setup):
+    print("This is fourth Test Case")
