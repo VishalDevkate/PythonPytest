@@ -3,8 +3,7 @@ import pytest
 @pytest.fixture(scope="module")
 def setup():
     print("setup")
-
-def teardown():
+    yield
     print("teardown")
 
 def test_firstTC(setup):

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ab3273e-1448-4ded-be91-cefec233ac42" name="Changes" comment="pytest demos">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0ab3273e-1448-4ded-be91-cefec233ac42" name="Changes" comment="added test to pyTestDemo.py">
+      <change afterPath="$PROJECT_DIR$/pytestDemo2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PythonPytest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonPytest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyTestDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyTestDemo.py" afterDir="false" />
     </list>
@@ -44,6 +45,9 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="3CNVetvRkjtNBixFAJvTi8wzP5s" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -69,11 +73,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable",
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.pyTestDemo">
+  <component name="RunManager" selected="Python tests.Python tests for pyTestDemo.test_firstTC">
     <configuration name="pyTestDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonPytest" />
       <option name="ENV_FILES" value="" />
@@ -151,8 +155,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.pyTestDemo" />
         <item itemvalue="Python tests.Python tests for pyTestDemo.test_firstTC" />
+        <item itemvalue="Python.pyTestDemo" />
         <item itemvalue="Python tests.Python tests for pyTestDemo.test_thirdTC" />
         <item itemvalue="Python tests.Python tests for pyTestDemo.test_secondTC" />
       </list>
@@ -181,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776312778950</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added test to pyTestDemo.py">
+      <option name="closed" value="true" />
+      <created>1776400054132</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1776400054132</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +201,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pytest demos" />
-    <option name="LAST_COMMIT_MESSAGE" value="pytest demos" />
+    <MESSAGE value="added test to pyTestDemo.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="added test to pyTestDemo.py" />
   </component>
 </project>
