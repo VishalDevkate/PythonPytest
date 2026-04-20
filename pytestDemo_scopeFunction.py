@@ -1,10 +1,9 @@
 import pytest
 
-@pytest.fixture(scope="module")
+@pytest.fixture(scope="function")
 def setup():
     print("setup")
-
-def teardown():
+    yield
     print("teardown")
 
 def test_firstTC(setup):
@@ -16,5 +15,5 @@ def test_secondTC(setup):
 def test_thirdTC(setup):
     print("This is third Test Case")
 
-def test_fourthTC(setup):
+def test_fourthTC():     #setup and teardown not called here
     print("This is fourth Test Case")
