@@ -1,8 +1,21 @@
+first, pytest checks if it finds the associated fixture in same file. If not found, it looks for the same in conftest.py
+
+for scope="session", pytest will run perticular code once for one execution
+scope="function": runs the fixture for every associated function
+scope="module": runs the fixture only once at the beginning of module/file. The module/file can contain multiple classes and methods
+scope="class": run the fixture once per class(shared across all methods in that class only)
+
+command to run all test files in current directory
+>pytest -s
+
+Command to run only test_conftestdemo1.py file
+>pytest test_conftestdemo1.py -s
+
 Command to run test_fifthTC function from test_conftestdemo1.py
 >pytest test_conftestdemo1.py::test_fifthTC -s
 
 @pytest.mark.skip(reason="skip test")
-Add this annotation to skip running perticular test
+Add this annotation to skip running perticular test. This is a default marker so you dont have to mention it with -m command while running
 
 @pytest.mark.smoke
 this is adding tag smoke to perticular test. You also need to register all the custom tags in pytest.ini file.
