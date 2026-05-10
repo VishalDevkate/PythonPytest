@@ -1,0 +1,11 @@
+Command to run test_fifthTC function from test_conftestdemo1.py
+>pytest test_conftestdemo1.py::test_fifthTC -s
+
+@pytest.mark.skip(reason="skip test")
+Add this annotation to skip running perticular test
+
+@pytest.mark.smoke
+this is adding tag smoke to perticular test. You also need to register all the custom tags in pytest.ini file.
+to run the perticular tag tests use following command
+>pytest -m smoke
+
